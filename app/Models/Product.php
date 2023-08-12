@@ -7,11 +7,11 @@ class Product
 
     public static function all(){
 
-        $api_url = 'https://64cc65872eafdcdc8519cbdf.mockapi.io/products';
-        // read json file
-        $json_data = file_get_contents($api_url);
+        $ch = curl_init('https://64cc65872eafdcdc8519cbdf.mockapi.io/products');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $result = curl_exec($ch);
         // decode json to array
-        $response_data = json_decode($json_data);
+        $response_data = json_decode($result);
         return collect($response_data); 
     }
 
