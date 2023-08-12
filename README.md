@@ -11,6 +11,20 @@
 
 Web Apps with data fetching from mock api. This application developed using the Laravel v9.52.15 framework (PHP v8.0.19).
 
+## feature
+
+- Home page display some products fetching from mock api
+- Product page display list of all products fetching from mock api 
+- Search product by the name of product
+- Filter product by category
+- Filter product by brand
+- Show the detail of product
+
+## preview
+![My Image](screenshot-app/mobile-halaman-product.png)![My Image](screenshot-app/mobile-halaman-home.png)![My Image](screenshot-app/mobile-halaman-detail-product.png)![My Image](screenshot-app/mobile-halaman-filter-category.png)
+![My Image](screenshot-app/desktop-halaman-product.png)
+![My Image](screenshot-app/desktop-halaman-search.png)
+  
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
