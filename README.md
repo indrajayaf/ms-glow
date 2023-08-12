@@ -22,13 +22,13 @@ Web Apps with data fetching from mock api. This application developed using the 
 
 ## Preview
 
+### - Video
+- https://github.com/indrajayaf/ms-glow/assets/14921024/24f0a45e-893d-4f58-98d7-7a8c41c5b57a
+- https://github.com/indrajayaf/ms-glow/assets/14921024/99c03d9b-4c50-485a-bb8e-dfe195c45308
 ### - Screenshot
 ![My Image](screenshot-app/mobile-halaman-product.png)![My Image](screenshot-app/mobile-halaman-home.png)![My Image](screenshot-app/mobile-halaman-detail-product.png)![My Image](screenshot-app/mobile-halaman-filter-category.png)
 ![My Image](screenshot-app/desktop-halaman-product.png)
 ![My Image](screenshot-app/desktop-halaman-search.png)
-### - Video
-- https://github.com/indrajayaf/ms-glow/assets/14921024/24f0a45e-893d-4f58-98d7-7a8c41c5b57a
-- https://github.com/indrajayaf/ms-glow/assets/14921024/99c03d9b-4c50-485a-bb8e-dfe195c45308
   
 ## About Laravel
 
