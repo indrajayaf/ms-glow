@@ -7,11 +7,16 @@ class Product
 
     public static function all(){
 
-        $ch = curl_init('https://64cc65872eafdcdc8519cbdf.mockapi.io/products');
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $result = curl_exec($ch);
+        // $ch = curl_init('https://64cc65872eafdcdc8519cbdf.mockapi.io/products');
+        // curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        // $result = curl_exec($ch);
+
+        $api_url = 'https://64cc65872eafdcdc8519cbdf.mockapi.io/products';
+        // read json file
+        $json_data = file_get_contents($api_url);
+
         // decode json to array
-        $response_data = json_decode($result);
+        $response_data = json_decode($json_data);
         return collect($response_data); 
     }
 
