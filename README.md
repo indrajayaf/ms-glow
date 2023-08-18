@@ -12,17 +12,12 @@
 Web Apps with data fetching from mock api. This application developed using the Laravel v9.52.15 framework (PHP v8.0.19).
 
 ## How to access in localserver
-### Using valet laravel
-- Create folder ms-glow on your valet directory
-- Open git bash to that directory
-- Execute "git clone https://github.com/indrajayaf/ms-glow.git ." in terminal/console to clone the project
-- Access the site using http://ms-glow.test
-  
-### Using xampp
-- Create folder /ms-glow on your htdocs directory
-- Open git bash to that directory
-- Execute "git clone https://github.com/indrajayaf/ms-glow.git ." in terminal/console to clone the project
-- Access the site using http://ms-glow.test/public/index.php
+- Open the terminal / git bash
+- Run "git clone https://github.com/indrajayaf/ms-glow.git" enter
+- go to the folder by typing "cd ms-glow" enter
+- generate key by typing "php artisan key: generate"
+- run it by typing "php artisan serve"
+- open a browser and type the url that showing in terminal/bash, like "localhost:8000"
 
 ## Feature
 
